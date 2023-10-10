@@ -64,14 +64,14 @@ export function NewLogDialog() {
             <div className="grid gap-4 py-4">
                <div className="grid grid-cols-4 items-center gap-4">
                   <Label htmlFor="date" className="text-right">
-                     date{" "}
+                     Date
                   </Label>
                   <DatePicker />
                </div>
 
                <div className="grid grid-cols-4 items-center gap-4">
                   <Label htmlFor="hour" className="text-right">
-                     hour
+                     Hour
                   </Label>
                   <Input
                      id="hour"

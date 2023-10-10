@@ -18,7 +18,7 @@ export default function Calendar() {
                         style={{ backgroundColor: getColor(logs[value]?.hour || 0) }}
                      />
                   </HoverCardTrigger>
-                  <HoverCardContent className="opacity-70 rounded-xl w-fit">
+                  <HoverCardContent className="opacity-70 rounded-xl w-fit text-sm font-semibold">
                      {logs[value]?.hour || 0} hours on {value}
                   </HoverCardContent>
                </HoverCard>
