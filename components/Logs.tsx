@@ -25,7 +25,7 @@ export default function Logs() {
                      </div>
                   </TableHead>
                   <TableHead className="w-[200px] text-right">
-                     <div className="flex items-center">
+                     <div className="flex items-center justify-end">
                         <Hourglass className="h-4 w-4 mr-1" /> Hour
                      </div>
                   </TableHead>

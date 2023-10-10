@@ -32,7 +32,7 @@ export const getColor = (value: number) => {
 }
 
 export const validateLog = (log: LogTypes) => {
-   if (!log.date || !log.hour || log.hour === 0) {
+   if (!log.date || !log.hour || log.hour <= 0) {
       throw "Date or hour can not be empty."
    } else if (log.hour >= 24) {
       throw "Please enter a valid hour."
